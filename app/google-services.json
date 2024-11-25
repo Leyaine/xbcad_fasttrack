@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174423962633",
+    "project_id": "tastech-c186b",
+    "storage_bucket": "tastech-c186b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174423962633:android:b152e66756dda5ba7b74d8",
+        "android_client_info": {
+          "package_name": "com.example.tastech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU0MqN1v9v6fBL33FEmZTaYDkhIEzLOYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

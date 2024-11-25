@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Message bubble for sent messages -->
+    <TextView
+        android:id="@+id/textViewMessageSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sent_message_background"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:visibility="gone"/> <!-- Set to gone by default -->
+
+    <!-- Message bubble for received messages -->
+    <TextView
+        android:id="@+id/textViewMessageReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/received_message_background"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:visibility="gone"/> <!-- Set to gone by default -->
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_background">#2592AB</color>
+
+    <!-- Primary colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondaryColor">#03DAC5</color>
+
+    <!-- Neutral colors -->
+    <color name="backgroundColor">#F1F1F1</color>
+    <color name="surfaceColor">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorSecondary">#B0B0B0</color>
+    <color name="textPrimaryDark">#333333</color>
+
+
+    <!-- Error color -->
+    <color name="errorColor">#B00020</color>
+
+    <!-- Other colors -->
+    <color name="buttonColor">#6200EE</color>
+    <color name="linkColor">#03DAC5</color>
+
+
+    <!-- Primary teal color (matches the chat header background) -->
+    <color name="colorPrimaryTeal">#00AFAF</color> <!-- Adjust as needed -->
+    <!-- Light gray for unselected icons -->
+    <color name="colorGray">#A0A0A0</color> <!-- You can use a lighter gray if needed -->
+
+    <!-- Bottom navigation background -->
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- Toolbar background color -->
+    <color name="toolbar_color">#ADD8E6</color>
+</resources>

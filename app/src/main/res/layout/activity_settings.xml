@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2490A9"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:paddingBottom="16dp" />
+
+            <!-- Account Settings Heading -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Settings"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:paddingBottom="8dp" />
+
+        </LinearLayout>
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@null"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:text="Edit Profile"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@drawable/ic_chevron_right"
+            android:textAlignment="textStart" />
+
+        <!-- Change Password Button -->
+        <Button
+            android:id="@+id/btn_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:text="Change Password"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@drawable/ic_chevron_right"
+            android:layout_marginTop="8dp"
+            android:textAlignment="textStart" />
+
+        <!-- Dark Mode Toggle -->
+        <Switch
+            android:id="@+id/switch_dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#FFFFFF"
+            android:padding="16dp"
+            android:text="Dark Mode"
+            android:textColorLink="#FFFFFF" />
+
+        <!-- Notification Toggle -->
+        <Switch
+            android:id="@+id/switch_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:layout_marginTop="8dp"
+            android:padding="16dp" />
+
+        <!-- Separator Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- More Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn_privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:text="Privacy Policy"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@drawable/ic_chevron_right"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn_terms_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:text="Terms and Conditions"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@drawable/ic_chevron_right"
+            android:layout_marginTop="8dp"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btn_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:text="About Us"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@drawable/ic_chevron_right"
+            android:layout_marginTop="8dp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+</ScrollView>

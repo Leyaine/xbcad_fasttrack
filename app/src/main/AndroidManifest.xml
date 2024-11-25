@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Declare camera feature without requiring it -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- Permissions for internet and external storage -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TasTech"
+        tools:targetApi="31">
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ButtonsActivity" />
+        <!-- Home Activity -->
+        <activity android:name=".HomeActivity" />
+
+        <!-- Shipments Activity -->
+        <activity android:name=".ShipmentsActivity" />
+
+        <!-- Chat Activity -->
+        <activity android:name=".ChatActivity"
+            android:exported="true"/>
+
+        <!-- Settings Activity -->
+        <activity android:name=".SettingsActivity" />
+
+        <!-- SignInActivity -->
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true"/>
+
+        <!-- SignUpActivity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"/>
+
+        <!-- ForgotPasswordActivity -->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true" />
+
+        <!-- PrivacyPolicyActivity -->
+        <activity android:name=".PrivacyPolicyActivity" />
+
+        <!-- TermsConditionsActivity -->
+        <activity android:name=".TermsConditionsActivity" />
+
+        <!-- AboutUsActivity -->
+        <activity android:name=".AboutUsActivity" />
+
+    </application>
+
+</manifest>

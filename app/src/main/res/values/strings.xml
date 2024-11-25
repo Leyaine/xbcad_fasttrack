@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TasTech</string>
+    <string name="send_message">Send Message</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="chat_messages">Chat Messages</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="shipment">Shipment</string>
+    <string name="settings">Settings</string>
+    <string name="attach_image">Attach Image</string>
+    <string name="attach_document">Attach document</string>
+    <string name="golf_city_plot_8_sector_75">Golf city, Plot 8, Sector 75</string>
+    <string name="noida_sector_75">Noida Sector 75</string>
+    <string name="todo">TODO</string>
+    <string name="attach_camera" />
+    <string name="noida_sector_75_ngolf_city_plot_8_sector_75">Noida Sector 75\nGolf City, Plot 8, Sector 75</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="let_s_track_your_package">Let’s Track Your Package</string>
+    <string name="enter_your_tracking_number">Enter your tracking number</string>
+    <string name="current_shipment">Current Shipment</string>
+    <string name="hwdsf776567ds">#HWDSF776567DS</string>
+    <string name="on_the_way_24_june">On the way • 24 June</string>
+    <string name="recent_shipment">Recent Shipment</string>
+    <string name="delivered_24_may">Delivered • 24 May</string>
+    <string name="_7xz6v87z6xcsa7">#7XZ6V87Z6XCSA7</string>
+</resources>
